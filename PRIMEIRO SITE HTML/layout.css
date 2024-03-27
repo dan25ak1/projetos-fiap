@@ -1,0 +1,31 @@
+span{
+    color:darkblue;
+    border: 1px solid darkblue;
+    padding: 2px;
+}
+
+hr{
+    border-color:black;
+}
+body{background-color: cadetblue;}
+h1{color:darkblue}
+h2{color:darkblue}
+p{ 
+    font-size: 16px;
+    font-family: bold;
+ }
+
+ul{
+    font-size: 16px;
+    font-family: bold;
+}
+
+h1{
+    text-align: center;
+    background-color: azure;
+    font-family: Verdana;
+}
+
+[title*="Danilo"] {
+    color:blue;
+}

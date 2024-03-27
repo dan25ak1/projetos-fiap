@@ -1,0 +1,68 @@
+h1 {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+*, ::after, :before{
+    box-sizing: border-box;
+}
+
+* {
+    min-width: 0;
+    min-height: 0;
+}
+
+body {
+    background: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 1rem;
+}
+
+.tabuleiro {
+    background: rgb(0, 0, 0);
+    display: grid;
+    border: 5px solid rgb(0, 0, 0);
+    width: 810px;
+    height: 810px;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    grid-auto-flow: row;
+}
+
+.quadrado {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    line-height: 1;
+}
+
+.quadrado:nth-child(even){
+    background-color: white;
+}
+
+.quadrado:nth-child(odd) {
+    background-color: grey;
+}
+
+.quadrado:nth-child(16n+1),
+.quadrado:nth-child(16n+3),
+.quadrado:nth-child(16n+5),
+.quadrado:nth-child(16n+7) {
+    background-color: white;
+}
+
+.quadrado:nth-child(16n+2),
+.quadrado:nth-child(16n+4),
+.quadrado:nth-child(16n+6),
+.quadrado:nth-child(16n+8) {
+    background-color: grey;
+}
