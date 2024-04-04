@@ -1,0 +1,22 @@
+form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+  }
+
+body {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+input {
+    border-color: black;
+    display: flexbox;
+    padding-bottom: 10px;
+}
+
+button {
+    background-color: rgb(221, 83, 83);
+    padding-bottom: 10px;
+}
