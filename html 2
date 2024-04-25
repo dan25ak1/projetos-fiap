@@ -1,0 +1,39 @@
+Claro! Aqui está um script em JavaScript para fazer a calculadora funcionar:
+
+```javascript
+// Função para adicionar números e operadores à entrada
+function digit(value) {
+  document.getElementById('result').value += value;
+}
+
+// Função para adicionar ponto flutuante
+function addFloat() {
+  let currentValue = document.getElementById('result').value;
+  // Verifica se já existe um ponto na entrada
+  if (currentValue.indexOf('.') === -1) {
+    document.getElementById('result').value += '.';
+  }
+}
+
+// Função para limpar a entrada
+function clearAll() {
+  document.getElementById('result').value = '';
+}
+
+// Função para calcular o resultado
+function equals() {
+  let result = document.getElementById('result').value;
+  // Tenta calcular a expressão
+  try {
+    // Usa a função eval para avaliar a expressão
+    let finalResult = eval(result);
+    // Exibe o resultado na entrada
+    document.getElementById('result').value = finalResult;
+  } catch (error) {
+    // Se houver um erro na expressão, exibe uma mensagem de erro
+    document.getElementById('result').value = 'Erro';
+  }
+}
+```
+
+Adicione este script ao seu arquivo `script.js` e ele fará sua calculadora funcionar corretamente. Certifique-se de que o arquivo `script.js` esteja na mesma pasta que o seu arquivo HTML.
