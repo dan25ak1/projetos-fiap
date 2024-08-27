@@ -7,7 +7,7 @@ public class Primitivos {
 		char sexo;
 		//inicializando a variável (atribuindo valores)
 		sexo = 'F';
-		//declaração e inicialização de vari[avel
+		//declaração e inicialização de variavel
 		byte idade = 25;
 		short codigo = 15650;
 		int alunos = 50, turmas = 11;
