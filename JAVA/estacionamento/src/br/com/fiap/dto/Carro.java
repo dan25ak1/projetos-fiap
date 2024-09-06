@@ -7,8 +7,7 @@ public class Carro {
 
     public Carro() {
     }
-
-    public static String getPlaca() {
+    public String getPlaca() {
         return placa;
     }
 
@@ -16,19 +15,19 @@ public class Carro {
         this.placa = placa;
     }
 
-    public static String getCor() {
-        return cor;
-    }
-
-    public void setCor(String cor) {
-        this.cor = cor;
-    }
-
-    public static String getDescricao() {
+    public String getDescricao() {
         return descricao;
     }
 
     public void setDescricao(String descricao) {
         this.descricao = descricao;
+    }
+
+    public String getCor() {
+        return cor;
+    }
+
+    public void setCor(String cor) {
+        this.cor = cor;
     }
 }

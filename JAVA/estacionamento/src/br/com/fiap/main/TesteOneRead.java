@@ -16,9 +16,9 @@ public class TesteOneRead {
         CarroDAO carroDAO = new CarroDAO(con);
         carro = carroDAO.listarUm(carro);
         if(carro != null){
-            System.out.println("Placa: " + Carro.getPlaca());
-            System.out.println("Cor: " + Carro.getCor());
-            System.out.println("Descrição" + Carro.getDescricao());
+            System.out.println("Placa: " + carro.getPlaca());
+            System.out.println("Cor: " + carro.getCor());
+            System.out.println("Descricao: " + carro.getDescricao());
         }
 
         ConnectionFactory.fecharConexao(con);

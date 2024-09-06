@@ -11,7 +11,7 @@ public class TesteDelete {
         Connection con = ConnectionFactory.abrirConexao();
 
         Carro carro = new Carro();
-        carro.setPlaca("ELL9244");
+        carro.setPlaca("ABC1234");
 
         CarroDAO carroDAO = new CarroDAO(con);
         System.out.println(carroDAO.excluir(carro));
