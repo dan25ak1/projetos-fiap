@@ -37,9 +37,11 @@ public class ClienteDAO {
         }
     }
     public String alterar(Cliente cliente) {
-        String sql = "update ddd_cliente  set NomeCliente=?, where placa=?"; // numero de interrogaçoes de acordo com colunas que queremos preencher
+        String sql = "update ddd_cliente  set nome_cliente=?,placa=? where id_cliente=?"; // numero de interrogaçoes de acordo com colunas que queremos preencher
         try(PreparedStatement ps = getCon().prepareStatement(sql);) {
+            ps.setInt(3, cliente.getIdCliente());
             ps.setString(1, cliente.getNomeCliente());
+            ps.setString(2, cliente.getPlaca());
 
             if (ps.executeUpdate() > 0) {
                 return "Alterado com sucesso!";
@@ -51,11 +53,11 @@ public class ClienteDAO {
         }
     }
     public String excluir(Cliente cliente) {
-        String sql = "delete from ddd_cliente where placa=?"; // numero de interrogaçoes de acordo com colunas que queremos preencher
+        String sql = "delete from ddd_cliente where id_cliente=?"; // numero de interrogaçoes de acordo com colunas que queremos preencher
         try(PreparedStatement ps = getCon().prepareStatement(sql);) {
             ps.setString(1, cliente.getPlaca());
             if (ps.executeUpdate() > 0) {
-                return "excluido com sucesso!";
+                return "Excluido com sucesso!";
             } else {
                 return "Erro ao excluir!";
             }
@@ -64,16 +66,16 @@ public class ClienteDAO {
         }
     }
     public ArrayList<Cliente> listarTodos() {
-        String sql = "select * from ddd_cliente order by placa";
-        ArrayList<Cliente> listaCliente = new ArrayList<>();
-        try(PreparedStatement ps = getCon().prepareStatement(sql);) {
+        String sql = "select * from ddd_cliente order by id_cliente";
+        ArrayList<Cliente> listaCliente = new ArrayList<Cliente>();
+        try (PreparedStatement ps = getCon().prepareStatement(sql);) {
             ResultSet rs = ps.executeQuery();
             if (rs != null){
                 while(rs.next()){ //next é um metodo que le todas as linhas
                     Cliente cliente = new Cliente();
-                    cliente.setIdCliente(rs.getInt(1));
-                    cliente.setNomeCliente(rs.getString(2));
-                    cliente.setPlaca(rs.getString(3));
+                    cliente.setIdCliente(rs.getInt("id_cliente"));
+                    cliente.setNomeCliente(rs.getString("nome_cliente"));
+                    cliente.setPlaca(rs.getString("placa"));
                     listaCliente.add(cliente);
                 }
                 return listaCliente;
