@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D1B2C882-E274-A502-8B35-2186AF83E820" name="FUNCIONARIO">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-13 19:07:46 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<engineerTo>
+<item key="E0318933-F1B7-A3C9-325B-452634640EED" value="true"/>
+<item key="4F8F4E78-4396-B139-2899-F408E69EA404" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_FUNCIONARIO" id="2611DE2B-5B28-39E2-615E-11261FDBECAE">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-13 19:07:54 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<engineerTo>
+<item key="E0318933-F1B7-A3C9-325B-452634640EED" value="true"/>
+<item key="4F8F4E78-4396-B139-2899-F408E69EA404" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOME" id="CCC03BA4-C8AB-D538-37B1-54F68C82DD0D">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-13 19:08:24 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<engineerTo>
+<item key="E0318933-F1B7-A3C9-325B-452634640EED" value="true"/>
+<item key="4F8F4E78-4396-B139-2899-F408E69EA404" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 BYTE</dataTypeSize>
+<ownDataTypeParameters>300 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DATA_NASCIMENTO" id="8FDA0512-2B85-095E-A7BC-1F0DD749F656">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-13 19:08:33 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<engineerTo>
+<item key="E0318933-F1B7-A3C9-325B-452634640EED" value="true"/>
+<item key="4F8F4E78-4396-B139-2899-F408E69EA404" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EMAIL" id="0A03CD6B-80A7-6096-631F-74802602ED8C">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-13 19:08:44 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<engineerTo>
+<item key="E0318933-F1B7-A3C9-325B-452634640EED" value="true"/>
+<item key="4F8F4E78-4396-B139-2899-F408E69EA404" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 BYTE</dataTypeSize>
+<ownDataTypeParameters>300 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CARGO" id="DA3D9DB6-FC26-E491-9641-89838CD010F4">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-13 19:08:49 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<engineerTo>
+<item key="E0318933-F1B7-A3C9-325B-452634640EED" value="true"/>
+<item key="4F8F4E78-4396-B139-2899-F408E69EA404" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_OFICINA" id="38D58E81-5133-7440-AEDB-4EB42BC5E9CB">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 09:12:41 UTC</createdTime>
+<generatorID>BAB6CEF7-7023-9FD7-D287-5DC605201641</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<engineerTo>
+<item key="E0318933-F1B7-A3C9-325B-452634640EED" value="true"/>
+<item key="4F8F4E78-4396-B139-2899-F408E69EA404" value="true"/>
+</engineerTo>
+<referedAttribute>C6C94A11-6CD2-5791-6AFF-81A8DF8D040F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F571691F-12A1-4CD7-80DD-1E2F9C9BBDBF" name="FUNCIONARIO PK">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-13 19:08:05 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="E0318933-F1B7-A3C9-325B-452634640EED" value="true"/>
+<item key="4F8F4E78-4396-B139-2899-F408E69EA404" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2611DE2B-5B28-39E2-615E-11261FDBECAE</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="2B4BA2A8-EDC6-910F-8EEB-4669D0FB004C" name="UK_FUNCIONARIO_EMAIL">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 09:15:20 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="E0318933-F1B7-A3C9-325B-452634640EED" value="true"/>
+<item key="4F8F4E78-4396-B139-2899-F408E69EA404" value="false"/>
+</engineerTo>
+<newElementsIDs>0A03CD6B-80A7-6096-631F-74802602ED8C</newElementsIDs>
+<usedAttributes>
+<attributeRef>0A03CD6B-80A7-6096-631F-74802602ED8C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="T_FH_FORNECEDORv1" directorySegmentName="seg_0" id="7D77559D-E6EC-1EE5-D4B4-84BE26BFD655">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:19 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID_FORNECEDOR" id="1B2C777E-8917-F073-FCBA-95E89A6EF133">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:19 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="T_FH_ESTOQUEv1_ID_ESTOQUE" id="24481480-9FE1-0D4A-E5DA-C72CCC749511">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:19 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOME" id="41CCFAA3-F144-1F0E-3767-C354DA7BF87E">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:19 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="T_FH_ENDERECOv1_ID_ENDERECO" id="84A75080-E390-7B1D-49AC-493F5DB29E03">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:19 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="T_FH_FORNECEDORv1__IDXv1" id="2B6A2A00-0AA3-3454-78AB-5F46842ABC2B">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:19 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="T_FH_FORNECEDORv1__IDX" id="F8601814-484F-3707-6E8A-D26FB3D4FA4D">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:19 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="T_FH_FORNECEDORv1_T_FH_ENDERECOv1_FK" id="93C98CEB-72EB-5222-1FF6-8412753FD4EA">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:19 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="T_FH_FORNECEDORv1_T_FH_ESTOQUEv1_FK" id="E2702E29-D315-1845-CA31-D6DED19C2103">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:19 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="T_FH_FORNECEDORv1_PK" id="58615478-56D8-341A-78BF-F28928956458">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:19 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

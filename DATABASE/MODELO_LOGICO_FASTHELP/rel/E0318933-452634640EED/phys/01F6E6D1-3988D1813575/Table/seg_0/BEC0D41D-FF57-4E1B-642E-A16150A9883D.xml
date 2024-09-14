@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="T_FH_DIAGNOSTICO" directorySegmentName="seg_0" id="BEC0D41D-FF57-4E1B-642E-A16150A9883D">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-13 17:52:01 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="SOLUCOES_SUGERIDAS" id="3155F1BD-6C8E-873C-6E60-2717FEC56EE5">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-13 17:52:01 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PECAS_ASSOCIADAS" id="318A22F3-5086-2E00-A625-18E715238A49">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-13 17:52:01 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_VEICULO" id="58061CD4-DD9E-0760-2E67-6AF912A89937">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-13 17:52:01 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DATA_DIAGNOSTICO" id="76131FBB-07B4-9FED-2626-0D5C08202869">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-13 17:52:01 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_DIAGNOSTICO" id="9A7570F4-79C9-25AB-D51D-284D91F50E32">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-13 17:52:01 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="HORA_DIAGNOSTICO" id="F9327698-6295-0BE5-ACFB-139D8270A754">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-13 17:52:01 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_ID_DIAGN_VEICULO" id="33784B2E-B2AD-2552-01EE-70BA378FB969">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-13 17:52:02 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_DIAGNOSTICO" id="0337AD8D-DE05-E28E-7E38-8DBDE33C4806">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-13 17:52:02 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

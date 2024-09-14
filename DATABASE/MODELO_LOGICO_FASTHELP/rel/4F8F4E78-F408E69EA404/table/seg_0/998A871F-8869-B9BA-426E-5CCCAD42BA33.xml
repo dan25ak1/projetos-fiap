@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="998A871F-8869-B9BA-426E-5CCCAD42BA33" name="T_FH_DIAGNOSTICO">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:42 UTC</createdTime>
+<generatorID>A8466ED0-24FB-FF3B-FA7C-7F226403B5D0</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_DIAGNOSTICO" id="56CB7EEE-0F57-115E-D9D6-4815702F0141">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:42 UTC</createdTime>
+<generatorID>1D2542EF-1625-20BD-B5A2-9DAEA8830695</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATA_DIAGNOSTICO" id="12D73822-1B31-5436-6FC0-9E059AA366E0">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:42 UTC</createdTime>
+<generatorID>E5DF00BC-32C5-359D-8623-659304BFC44F</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HORA_DIAGNOSTICO" id="D757A551-77A4-7BE9-3F45-D49829A49120">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:42 UTC</createdTime>
+<generatorID>C08F38B5-DE61-F758-1FAE-F7F670D74E83</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SOLUCOES_SUGERIDAS" id="5B6B88E5-6FAD-C827-E742-B0900D152C0D">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:42 UTC</createdTime>
+<generatorID>B71C8D60-1779-D443-487D-D2FDA2266152</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000 BYTE</dataTypeSize>
+<ownDataTypeParameters>1000 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PECAS_ASSOCIADAS" id="7D4CB3FB-5855-8E63-3090-3AC0F26960A3">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:42 UTC</createdTime>
+<generatorID>1B08054F-9A1D-584D-3F7E-52A982BF4A05</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000 BYTE</dataTypeSize>
+<ownDataTypeParameters>1000 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_FH_VEICULO_ID_VEICULO" id="F31B0A0E-858F-78A3-A2BC-2E590DAACCD4">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:42 UTC</createdTime>
+<generatorID>2D12417C-EF34-FE57-F244-EA844430E873</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2E16D74D-F968-2586-ADDB-4440AD09FE84" referredColumn="78258362-5DFD-2F8F-BC9E-E12ED32EE02C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DEF44EA6-B5B8-2942-4CBB-D92585643A84" name="T_FH_DIAGNOSTICO_PK">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:42 UTC</createdTime>
+<generatorID>AEBFA473-14CC-78EC-7D61-095B995B33DD</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="56CB7EEE-0F57-115E-D9D6-4815702F0141"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7928C998-C46D-5A80-5F38-CFCC9B02FE69" name="T_FH_DIAGNOSTICO_T_FH_VEICULO_FK">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:42 UTC</createdTime>
+<generatorID>48EE8933-08CF-599A-6C7C-31FA1760614C</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F31B0A0E-858F-78A3-A2BC-2E590DAACCD4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

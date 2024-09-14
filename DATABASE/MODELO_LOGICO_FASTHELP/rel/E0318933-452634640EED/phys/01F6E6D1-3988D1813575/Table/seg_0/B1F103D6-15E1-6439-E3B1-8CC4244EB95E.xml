@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="T_FH_ENDERECOv1" directorySegmentName="seg_0" id="B1F103D6-15E1-6439-E3B1-8CC4244EB95E">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:19 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="MUNICIPIO" id="3CF95050-2C0F-DB31-66CF-2391DF7A7974">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:19 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_ENDERECO" id="42A4A341-6314-E10E-7BDC-77A4B5C36446">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:19 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="T_FH_OFICINAv1_ID_OFICINA" id="50F125B4-F685-D94F-9B21-B0DDD4051B4D">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:19 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="T_FH_FORNECEDORv1_ID_FORNECEDOR" id="6FDE9CBC-D8D1-8647-8E01-554245268E2B">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:19 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="RUA" id="8A811D0C-EFB3-9DFB-3C8E-1C55F5AB2FEA">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:19 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="T_FH_USUARIOv1_ID_USUARIO" id="B3FD56F3-7846-4867-46AC-E4775B419454">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:19 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ESTADO" id="D806973B-F1C7-7449-925B-D14711A3DEF2">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:19 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NUMERO" id="ED9FB123-246F-C683-9ECE-681CF965DF4B">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:19 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="T_FH_ENDERECOv1__IDXv1" id="2B0EDD79-F648-2C37-709C-9B82694771CA">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:19 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="T_FH_ENDERECOv1__IDX" id="47BFD81E-EC11-A2DA-958D-4113599292AA">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:19 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="T_FH_ENDERECOv1__IDXv2" id="72C34E7C-8930-17B4-F77C-9E2577029B87">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:19 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="T_FH_ENDERECOv1_T_FH_USUARIOv1_FK" id="4CE6009A-773F-DCBE-8348-B0FD26803010">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:19 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="T_FH_ENDERECOv1_T_FH_OFICINAv1_FK" id="76641E41-F503-BEBD-969B-F559912013B8">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:19 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="T_FH_ENDERECOv1_T_FH_FORNECEDORv1_FK" id="B4A25819-4A9F-519E-A152-9855F31F6162">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:19 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="T_FH_ENDERECOv1_PK" id="04311C37-F366-F80D-3EC9-E4050C72B841">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:19 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

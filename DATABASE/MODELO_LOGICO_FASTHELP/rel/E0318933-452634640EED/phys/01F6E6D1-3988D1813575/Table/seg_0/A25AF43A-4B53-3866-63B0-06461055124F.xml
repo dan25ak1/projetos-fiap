@@ -1,0 +1,43 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="Relation_5" directorySegmentName="seg_0" id="A25AF43A-4B53-3866-63B0-06461055124F">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:19 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="T_FH_USUARIOv1_ID_USUARIO" id="30F1BD16-4485-863C-9AA4-A5A4D4E0FDC9">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:19 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="T_FH_AGENDAMENTO_OFICINAv1_ID_AGENDAMENTO" id="A4144EA9-7754-CC50-023B-FAD7D4634047">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:19 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Relation_5_T_FH_AGENDAMENTO_OFICINAv1_FK" id="1F11AFE5-44F8-7C86-2301-606033C4AEC5">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:19 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Relation_5_T_FH_USUARIOv1_FK" id="536E4136-ED4C-CAFE-40C0-85A00B52DA1E">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:19 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Relation_5_PK" id="E85FE472-BA15-8D31-2031-218CC9ABC881">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:19 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

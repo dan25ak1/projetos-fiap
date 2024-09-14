@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8FE6420F-5702-7A69-37C5-3E7EC1563500" name="T_FH_ESTOQUEv1">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:19 UTC</createdTime>
+<generatorID>B601D691-9496-44B7-AF86-F7A4E7160EC7</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ESTOQUE" id="4C73EE11-7A96-8612-0B99-3F101B780E01">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:19 UTC</createdTime>
+<generatorID>F86B4D30-5DC7-E590-5952-D944FC60F471</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PECA" id="D5EDF17A-BEB7-E80D-1763-7B833C7F2A53">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:19 UTC</createdTime>
+<generatorID>9EE1C481-D0E6-3B54-7DA2-80469B12EAAB</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 BYTE</dataTypeSize>
+<ownDataTypeParameters>300 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QTD_PECAS" id="544526CC-C9B1-1495-71F8-23A9047390F7">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:19 UTC</createdTime>
+<generatorID>D9E39A63-5F95-536D-5200-5476A750880A</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_FH_FORNECEDORv1_ID_FORNECEDOR" id="EEFBF573-7A40-C61D-3816-0EB0B48D9558">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:19 UTC</createdTime>
+<generatorID>2DF694FE-3C55-C20B-6D99-144F3E995DAB</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="913A4C1B-D19C-70F9-5F07-0709DC722FE5" referredColumn="1B2C777E-8917-F073-FCBA-95E89A6EF133"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="412574B4-9C05-721A-3F71-461288D68BAB" name="T_FH_ESTOQUEv1_PK">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:19 UTC</createdTime>
+<generatorID>4C43E38D-930C-E4E9-CE7C-3D62C948EBF1</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4C73EE11-7A96-8612-0B99-3F101B780E01"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C222DF6B-75C4-E923-3E3F-27472118E6E3" name="T_FH_ESTOQUEv1__IDX">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:19 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>00302C55-930C-5B64-C00D-8C29E914AA68</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="EEFBF573-7A40-C61D-3816-0EB0B48D9558"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6B691A17-747D-1B5C-F334-2DE9A73ABF29" name="T_FH_ESTOQUEv1_T_FH_FORNECEDORv1_FK">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:19 UTC</createdTime>
+<generatorID>00302C55-930C-5B64-C00D-8C29E914AA68</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EEFBF573-7A40-C61D-3816-0EB0B48D9558"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

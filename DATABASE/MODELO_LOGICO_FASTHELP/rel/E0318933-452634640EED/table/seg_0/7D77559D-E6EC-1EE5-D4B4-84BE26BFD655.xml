@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7D77559D-E6EC-1EE5-D4B4-84BE26BFD655" name="T_FH_FORNECEDORv1">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:19 UTC</createdTime>
+<generatorID>3C13A737-08BB-75B8-02E4-C0B4D86BB230</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_FORNECEDOR" id="1B2C777E-8917-F073-FCBA-95E89A6EF133">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:19 UTC</createdTime>
+<generatorID>18C799A4-DF7E-950D-CBF8-718E7F0BEE29</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOME" id="41CCFAA3-F144-1F0E-3767-C354DA7BF87E">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:19 UTC</createdTime>
+<generatorID>4857E02E-57B6-751F-BF02-08D050C1C238</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 BYTE</dataTypeSize>
+<ownDataTypeParameters>300 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_FH_ENDERECOv1_ID_ENDERECO" id="84A75080-E390-7B1D-49AC-493F5DB29E03">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:19 UTC</createdTime>
+<generatorID>37013C2B-A869-F3B5-073D-35E0EB6D5954</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7E8F1B35-4D7E-F5A7-1B99-D34150012233" referredColumn="42A4A341-6314-E10E-7BDC-77A4B5C36446"/>
+</associations>
+</Column>
+<Column name="T_FH_ESTOQUEv1_ID_ESTOQUE" id="24481480-9FE1-0D4A-E5DA-C72CCC749511">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:19 UTC</createdTime>
+<generatorID>147BB796-2D67-B1BC-6ECF-56CC837A1FB0</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="072923D8-7B63-D426-399F-C2D02C8825D9" referredColumn="4C73EE11-7A96-8612-0B99-3F101B780E01"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="58615478-56D8-341A-78BF-F28928956458" name="T_FH_FORNECEDORv1_PK">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:19 UTC</createdTime>
+<generatorID>F7DBACE8-26B7-6E63-AC35-9B40172D7024</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B2C777E-8917-F073-FCBA-95E89A6EF133"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F8601814-484F-3707-6E8A-D26FB3D4FA4D" name="T_FH_FORNECEDORv1__IDX">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:19 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>00302C55-930C-5B64-C00D-8C29E914AA68</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="24481480-9FE1-0D4A-E5DA-C72CCC749511"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2B6A2A00-0AA3-3454-78AB-5F46842ABC2B" name="T_FH_FORNECEDORv1__IDXv1">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:19 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>5E942EF5-B68A-AE68-98F3-BE864E858EE9</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="84A75080-E390-7B1D-49AC-493F5DB29E03"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E2702E29-D315-1845-CA31-D6DED19C2103" name="T_FH_FORNECEDORv1_T_FH_ESTOQUEv1_FK">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:19 UTC</createdTime>
+<generatorID>00302C55-930C-5B64-C00D-8C29E914AA68</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="24481480-9FE1-0D4A-E5DA-C72CCC749511"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="93C98CEB-72EB-5222-1FF6-8412753FD4EA" name="T_FH_FORNECEDORv1_T_FH_ENDERECOv1_FK">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:19 UTC</createdTime>
+<generatorID>5E942EF5-B68A-AE68-98F3-BE864E858EE9</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="84A75080-E390-7B1D-49AC-493F5DB29E03"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="83590B60-A2EF-C62F-4FB5-B6176AE8D060" containerWithKeyObject="282C537B-AA92-6A8D-D2B8-C64A334E943A" localFKIndex="751AB1D5-0819-37D3-6DD5-A9A700514D69" name="Relation_25_T_FH_PECA_FK">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:14:45 UTC</createdTime>
+<generatorID>9EAEBD3F-71DD-EBED-D7A3-134CFDFFE712</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<referredTableLongName>T_FH_PECA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3D3EFD7A-8291-C21B-9CA9-A8368977F9ED</referredTableID>
+<keyObject>ED7C03D3-D142-8B6F-56F7-EC324E8EC229</keyObject>
+<referredKeyID>ED7C03D3-D142-8B6F-56F7-EC324E8EC229</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_PECA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5AE77D5F-304D-3CDF-939F-562F42F5CA2D" containerWithKeyObject="D28141AC-6EB2-BF20-2C81-3ECE9612F2E9" localFKIndex="CEFDC8EF-8FE6-F329-DFFF-F264BBA4478D" name="FK_ID_ESTOQUE_FORNEC">
+<sourceDDLFile>CRIA.sql</sourceDDLFile>
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-13 17:52:02 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<referredTableLongName>T_FH_FORNECEDOR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1F9F0A7F-E021-BC89-C25B-A51A723728FC</referredTableID>
+<keyObject>B0478449-7D6D-9C69-ABEB-0097BEBEE005</keyObject>
+<referredKeyID>B0478449-7D6D-9C69-ABEB-0097BEBEE005</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_FORNECEDOR</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

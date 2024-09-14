@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B601D691-9496-44B7-AF86-F7A4E7160EC7" name="T_FH_ESTOQUE">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-13 19:05:14 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<engineerTo>
+<item key="E0318933-F1B7-A3C9-325B-452634640EED" value="true"/>
+<item key="4F8F4E78-4396-B139-2899-F408E69EA404" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_ESTOQUE" id="F86B4D30-5DC7-E590-5952-D944FC60F471">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-13 19:05:25 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<engineerTo>
+<item key="E0318933-F1B7-A3C9-325B-452634640EED" value="true"/>
+<item key="4F8F4E78-4396-B139-2899-F408E69EA404" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PECA" id="9EE1C481-D0E6-3B54-7DA2-80469B12EAAB">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-13 19:05:43 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<engineerTo>
+<item key="E0318933-F1B7-A3C9-325B-452634640EED" value="true"/>
+<item key="4F8F4E78-4396-B139-2899-F408E69EA404" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 BYTE</dataTypeSize>
+<ownDataTypeParameters>300 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="QTD_PECAS" id="D9E39A63-5F95-536D-5200-5476A750880A">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-13 19:05:52 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<engineerTo>
+<item key="E0318933-F1B7-A3C9-325B-452634640EED" value="true"/>
+<item key="4F8F4E78-4396-B139-2899-F408E69EA404" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_FORNECEDOR" id="2DF694FE-3C55-C20B-6D99-144F3E995DAB">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-13 19:07:06 UTC</createdTime>
+<generatorID>00302C55-930C-5B64-C00D-8C29E914AA68</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<engineerTo>
+<item key="E0318933-F1B7-A3C9-325B-452634640EED" value="true"/>
+<item key="4F8F4E78-4396-B139-2899-F408E69EA404" value="true"/>
+</engineerTo>
+<referedAttribute>18C799A4-DF7E-950D-CBF8-718E7F0BEE29</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4C43E38D-930C-E4E9-CE7C-3D62C948EBF1" name="T_FH_ESTOQUE PK">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-13 19:05:39 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="E0318933-F1B7-A3C9-325B-452634640EED" value="true"/>
+<item key="4F8F4E78-4396-B139-2899-F408E69EA404" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F86B4D30-5DC7-E590-5952-D944FC60F471</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="T_FH_TELEFONEv1" directorySegmentName="seg_0" id="0FC345D2-47AA-9316-07AB-547EFE7D0A57">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:19 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="T_FH_OFICINAv1_ID_OFICINA" id="23CCC3E7-0831-6D0D-54A7-7F5B0241C763">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:19 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NUMERO" id="473B3379-20E7-7713-2D5D-5FBA91C90CA4">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:19 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="T_FH_FORNECEDORv1_ID_FORNECEDOR" id="6D2D8438-4061-9B88-C3DE-14775560CECA">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:19 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="T_FH_USUARIOv1_ID_USUARIO" id="AC1E533A-4EC6-98E0-9A02-7F268FB32D3E">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:19 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_TELEFONE" id="B1FF0637-C650-0F4D-60E0-ED5F62179938">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:19 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DDD" id="D5BABBF4-3419-FEFC-8175-A15C8145EB05">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:19 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FUNCIONARIO_ID_FUNCIONARIO" id="F0994B09-AB09-49D8-5558-EB26D692A113">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:19 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="T_FH_AGENDAMENTO_OFICINAv1_ID_AGENDAMENTO" id="F515CA4B-EC77-1B2D-C4CA-4377441BD019">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:19 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="T_FH_TELEFONEv1_T_FH_OFICINAv1_FK" id="221F71E6-7FF2-F4D9-AEFA-EF2560F35633">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:19 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="T_FH_TELEFONEv1_T_FH_AGENDAMENTO_OFICINAv1_FK" id="52C6EB68-281B-5CEF-AE2B-F8A551CAFE5E">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:19 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="T_FH_TELEFONEv1_T_FH_USUARIOv1_FK" id="7AA4C099-906F-E271-D7C5-754651B3E951">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:19 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="T_FH_TELEFONEv1_T_FH_FORNECEDORv1_FK" id="FA5222FC-8DBA-1027-7941-EE06E19AD26A">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:19 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="T_FH_TELEFONEv1_FUNCIONARIO_FK" id="FEBAB36B-6B88-4519-A35E-2D6C2223E416">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:19 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="T_FH_TELEFONEv1_PK" id="ADB33F2C-99A2-EE90-AB41-E79E06F3011E">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:19 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

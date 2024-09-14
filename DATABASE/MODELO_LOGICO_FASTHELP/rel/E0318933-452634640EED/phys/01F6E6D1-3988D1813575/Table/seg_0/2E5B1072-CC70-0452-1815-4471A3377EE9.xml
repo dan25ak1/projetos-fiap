@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="T_FH_OFICINA" directorySegmentName="seg_0" id="2E5B1072-CC70-0452-1815-4471A3377EE9">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-13 17:52:01 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID_ENDERECO" id="4A56FF45-1191-ADCE-1A7F-62CF55089DF2">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-13 17:52:01 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_OFICINA" id="A46A4A50-E88C-3F0C-B48D-B41B2CBA1990">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-13 17:52:01 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_ORCAMENTO" id="BE473657-B663-A9DC-BCC6-EB5CD2B3DAC4">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-13 17:52:01 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="HORARIO_FUNCIONAMENTO" id="EB56B1AB-AC61-AAAF-F9A1-6D58FBD35D48">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-13 17:52:01 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOME" id="F2E3904C-632D-73ED-FBC7-CE56D12AA5D2">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-13 17:52:01 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_ID_OFICINA_ENDE" id="1BB5E3D4-8CB4-2BFF-2142-759EBFA6F281">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-13 17:52:02 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_ID_OFICINA_ORCAMENTO" id="D2A99380-76FF-30C2-9DA7-DB5C3E26762D">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-13 17:52:02 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_OFICINA" id="8DB693DF-8EE9-1EC5-292B-DFEDB871B6E7">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-13 17:52:01 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

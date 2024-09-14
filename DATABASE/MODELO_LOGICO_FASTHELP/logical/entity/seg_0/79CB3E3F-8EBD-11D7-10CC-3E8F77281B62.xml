@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="79CB3E3F-8EBD-11D7-10CC-3E8F77281B62" name="T_FH_VEICULO">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-13 18:42:37 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<engineerTo>
+<item key="E0318933-F1B7-A3C9-325B-452634640EED" value="true"/>
+<item key="4F8F4E78-4396-B139-2899-F408E69EA404" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_VEICULO" id="9AB074FA-0835-81A2-C6DC-BA3F9A35EB0D">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-13 18:42:54 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<engineerTo>
+<item key="E0318933-F1B7-A3C9-325B-452634640EED" value="true"/>
+<item key="4F8F4E78-4396-B139-2899-F408E69EA404" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ANO" id="1BCF11A8-D553-2968-4E3C-C9C3698B5051">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-13 18:43:15 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<engineerTo>
+<item key="E0318933-F1B7-A3C9-325B-452634640EED" value="true"/>
+<item key="4F8F4E78-4396-B139-2899-F408E69EA404" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PLACA" id="878A63F4-9C09-3345-9CD5-126313A51BF2">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-13 18:43:20 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<engineerTo>
+<item key="E0318933-F1B7-A3C9-325B-452634640EED" value="true"/>
+<item key="4F8F4E78-4396-B139-2899-F408E69EA404" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MODELO" id="98520523-7835-5311-4981-0714B940C8D6">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-13 18:43:24 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<engineerTo>
+<item key="E0318933-F1B7-A3C9-325B-452634640EED" value="true"/>
+<item key="4F8F4E78-4396-B139-2899-F408E69EA404" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MARCA" id="089A6FA8-7C3E-3F29-9499-B4AB9DD78FD9">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-13 18:43:28 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<engineerTo>
+<item key="E0318933-F1B7-A3C9-325B-452634640EED" value="true"/>
+<item key="4F8F4E78-4396-B139-2899-F408E69EA404" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 BYTE</dataTypeSize>
+<ownDataTypeParameters>300 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_USUARIO" id="3F8CF62D-7550-B8E1-29EC-ADDCE3362BC7">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 09:11:13 UTC</createdTime>
+<generatorID>8311C382-66D6-BB0F-65E2-3A42D7BB78E5</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<engineerTo>
+<item key="E0318933-F1B7-A3C9-325B-452634640EED" value="true"/>
+<item key="4F8F4E78-4396-B139-2899-F408E69EA404" value="true"/>
+</engineerTo>
+<referedAttribute>EF99333D-DC31-C7C2-E117-2B2C23652CB5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1349D0BD-8BF9-C1E9-BCD1-102E0F066E57" name="T_FH_VEICULO PK">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-13 18:43:13 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="E0318933-F1B7-A3C9-325B-452634640EED" value="true"/>
+<item key="4F8F4E78-4396-B139-2899-F408E69EA404" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9AB074FA-0835-81A2-C6DC-BA3F9A35EB0D</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="8FC958CC-D37E-2710-C3E3-014B12828AD3" name="UK_VEICULO_PLACA">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 09:17:04 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="E0318933-F1B7-A3C9-325B-452634640EED" value="true"/>
+<item key="4F8F4E78-4396-B139-2899-F408E69EA404" value="false"/>
+</engineerTo>
+<newElementsIDs>878A63F4-9C09-3345-9CD5-126313A51BF2</newElementsIDs>
+<usedAttributes>
+<attributeRef>878A63F4-9C09-3345-9CD5-126313A51BF2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4E3D6E30-8DED-3549-1EDD-E76765172F47" name="FUNCIONARIO">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:42 UTC</createdTime>
+<generatorID>D1B2C882-E274-A502-8B35-2186AF83E820</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_FUNCIONARIO" id="91ACF8D1-45F6-1E90-29CA-9052D47C911E">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:42 UTC</createdTime>
+<generatorID>2611DE2B-5B28-39E2-615E-11261FDBECAE</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOME" id="9C556DAF-4F8D-1923-E278-9AB913B89E57">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:42 UTC</createdTime>
+<generatorID>CCC03BA4-C8AB-D538-37B1-54F68C82DD0D</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 BYTE</dataTypeSize>
+<ownDataTypeParameters>300 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATA_NASCIMENTO" id="EA41BC5D-F231-6BFF-8D81-BDF5BCE88B66">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:42 UTC</createdTime>
+<generatorID>8FDA0512-2B85-095E-A7BC-1F0DD749F656</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMAIL" id="DA0EA31E-1107-F989-ED00-F84322A1BFA6">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:42 UTC</createdTime>
+<generatorID>0A03CD6B-80A7-6096-631F-74802602ED8C</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 BYTE</dataTypeSize>
+<ownDataTypeParameters>300 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CARGO" id="CF11C928-7993-D1F5-4F86-48E2CD0F938F">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:42 UTC</createdTime>
+<generatorID>DA3D9DB6-FC26-E491-9641-89838CD010F4</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_FH_OFICINA_ID_OFICINA" id="A4A62764-6E7B-2B76-D747-3BBAA3F8C443">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:42 UTC</createdTime>
+<generatorID>38D58E81-5133-7440-AEDB-4EB42BC5E9CB</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F691477F-FD26-5E05-9E8D-48EEF3E7CD58" referredColumn="F01E4564-7C41-FF32-D70B-3965E80216A3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5D3B4C6C-C749-0FF5-9A91-89FAA175B8FC" name="FUNCIONARIO_PK">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:42 UTC</createdTime>
+<generatorID>F571691F-12A1-4CD7-80DD-1E2F9C9BBDBF</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="91ACF8D1-45F6-1E90-29CA-9052D47C911E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="39AC16B5-A1EF-2215-C22F-AE559CD99E3A" name="FUNCIONARIO_EMAIL_UN">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:42 UTC</createdTime>
+<generatorID>2B4BA2A8-EDC6-910F-8EEB-4669D0FB004C</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DA0EA31E-1107-F989-ED00-F84322A1BFA6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="48684029-CE09-A30A-B9A5-690728C7B45C" name="FUNCIONARIO_T_FH_OFICINA_FK">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:42 UTC</createdTime>
+<generatorID>BAB6CEF7-7023-9FD7-D287-5DC605201641</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A4A62764-6E7B-2B76-D747-3BBAA3F8C443"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

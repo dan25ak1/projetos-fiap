@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3D3EFD7A-8291-C21B-9CA9-A8368977F9ED" name="T_FH_PECA">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:42 UTC</createdTime>
+<generatorID>510A4B14-498E-6E8F-A8BA-83FAEFE69D95</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PECA" id="01CB52AD-DEAA-DB5C-9C66-637FC3F9B768">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:42 UTC</createdTime>
+<generatorID>874C8859-7530-DA2E-80D4-8467204F194F</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOME" id="B5E18E8E-8662-037D-06A3-C2FCFA4D6E81">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:42 UTC</createdTime>
+<generatorID>F8ED4B7E-5A40-92B5-F618-26C8C78F9983</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 BYTE</dataTypeSize>
+<ownDataTypeParameters>300 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRICAO" id="18FCE7C2-5351-AD23-EA27-31CA9E8F5657">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:42 UTC</createdTime>
+<generatorID>7D91A5AA-3A0E-4CE9-2695-FEBA43AC3FE2</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000 BYTE</dataTypeSize>
+<ownDataTypeParameters>1000 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRECO" id="4EC67261-1C69-AF26-B836-B56D1DEDAF45">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:42 UTC</createdTime>
+<generatorID>3376C1C5-FBB5-CBE8-761B-1C69276A4CD2</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<domain>854C252A-3132-8EF9-4C17-7DF21E8AFFF1</domain>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ED7C03D3-D142-8B6F-56F7-EC324E8EC229" name="T_FH_PECA_PK">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:42 UTC</createdTime>
+<generatorID>D2A0B2AD-251A-BCEA-A3B8-C006F22052C1</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="01CB52AD-DEAA-DB5C-9C66-637FC3F9B768"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

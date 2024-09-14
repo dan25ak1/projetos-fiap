@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D28141AC-6EB2-BF20-2C81-3ECE9612F2E9" name="T_FH_ESTOQUE">
+<sourceDDLFile>CRIA.sql</sourceDDLFile>
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-13 17:52:01 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ESTOQUE" id="05F7396C-8D51-C8C9-EAF3-A2BB089C1710">
+<sourceDDLFile>CRIA.sql</sourceDDLFile>
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-13 17:52:01 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>A7C4EB54-CC25-2DB8-FBE3-F079C78E59AA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PECA" id="7E332C78-98C8-12ED-0711-5FFDA3738065">
+<sourceDDLFile>CRIA.sql</sourceDDLFile>
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-13 17:52:01 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A69FE463-6A2F-5413-1321-77FF2741D37D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QTD_PECAS" id="355BEFDD-73EB-A9A6-C5DA-0BEF31A69A6D">
+<sourceDDLFile>CRIA.sql</sourceDDLFile>
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-13 17:52:01 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>BFC60EC5-592F-8E83-904E-17B7FADE3B91</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_FORNECEDOR" id="0B6C193C-BCCD-2905-BFFC-C429876D8B7E">
+<sourceDDLFile>CRIA.sql</sourceDDLFile>
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-13 17:52:01 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>A7C4EB54-CC25-2DB8-FBE3-F079C78E59AA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5AE77D5F-304D-3CDF-939F-562F42F5CA2D" referredColumn="ADB0E1DB-298D-623E-0920-DEDCE9ADD440"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6B738778-6DE6-7F86-492E-E5E96A35E5D0" name="PK_ESTOQUE">
+<sourceDDLFile>CRIA.sql</sourceDDLFile>
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-13 17:52:01 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="05F7396C-8D51-C8C9-EAF3-A2BB089C1710"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CEFDC8EF-8FE6-F329-DFFF-F264BBA4478D" name="FK_ID_ESTOQUE_FORNEC">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-13 17:52:02 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0B6C193C-BCCD-2905-BFFC-C429876D8B7E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CHK_ESTOQUE_QTD_PECAS" directorySegmentName="seg_0" id="46E012B3-9F70-1675-F8E4-3E2BB897B168">
+<sourceDDLFile>CRIA.sql</sourceDDLFile>
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-13 17:52:02 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<rule><![CDATA[QTD_PECAS >= 0]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

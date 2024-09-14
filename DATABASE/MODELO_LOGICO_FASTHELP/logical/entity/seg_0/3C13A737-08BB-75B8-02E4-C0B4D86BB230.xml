@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3C13A737-08BB-75B8-02E4-C0B4D86BB230" name="T_FH_FORNECEDOR">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-13 19:00:49 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<engineerTo>
+<item key="E0318933-F1B7-A3C9-325B-452634640EED" value="true"/>
+<item key="4F8F4E78-4396-B139-2899-F408E69EA404" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_FORNECEDOR" id="18C799A4-DF7E-950D-CBF8-718E7F0BEE29">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-13 19:01:00 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<engineerTo>
+<item key="E0318933-F1B7-A3C9-325B-452634640EED" value="true"/>
+<item key="4F8F4E78-4396-B139-2899-F408E69EA404" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOME" id="4857E02E-57B6-751F-BF02-08D050C1C238">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-13 19:01:37 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<engineerTo>
+<item key="E0318933-F1B7-A3C9-325B-452634640EED" value="true"/>
+<item key="4F8F4E78-4396-B139-2899-F408E69EA404" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 BYTE</dataTypeSize>
+<ownDataTypeParameters>300 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_ENDERECO" id="37013C2B-A869-F3B5-073D-35E0EB6D5954">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-13 19:07:28 UTC</createdTime>
+<generatorID>5E942EF5-B68A-AE68-98F3-BE864E858EE9</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<engineerTo>
+<item key="E0318933-F1B7-A3C9-325B-452634640EED" value="true"/>
+<item key="4F8F4E78-4396-B139-2899-F408E69EA404" value="true"/>
+</engineerTo>
+<referedAttribute>3110FEC4-F9CA-335C-39D0-3AF4F87059C5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_ESTOQUE" id="147BB796-2D67-B1BC-6ECF-56CC837A1FB0">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 09:09:18 UTC</createdTime>
+<generatorID>00302C55-930C-5B64-C00D-8C29E914AA68</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<engineerTo>
+<item key="E0318933-F1B7-A3C9-325B-452634640EED" value="true"/>
+<item key="4F8F4E78-4396-B139-2899-F408E69EA404" value="true"/>
+</engineerTo>
+<referedAttribute>F86B4D30-5DC7-E590-5952-D944FC60F471</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F7DBACE8-26B7-6E63-AC35-9B40172D7024" name="T_FH_FORNECEDOR PK">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-13 19:01:30 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="E0318933-F1B7-A3C9-325B-452634640EED" value="true"/>
+<item key="4F8F4E78-4396-B139-2899-F408E69EA404" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>18C799A4-DF7E-950D-CBF8-718E7F0BEE29</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

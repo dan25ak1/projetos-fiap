@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="46A42AA0-3C3B-EB82-E3A1-A50C301A9CB6" name="T_FH_ORCAMENTO">
+<sourceDDLFile>CRIA.sql</sourceDDLFile>
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-13 17:52:01 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ORCAMENTO" id="EA05DCCA-603A-C819-5F26-C8885F7BD4BE">
+<sourceDDLFile>CRIA.sql</sourceDDLFile>
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-13 17:52:01 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>A7C4EB54-CC25-2DB8-FBE3-F079C78E59AA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATA_DE_CRIACAO" id="460DCB5C-CA05-B5E1-B648-7EC5309D4B44">
+<sourceDDLFile>CRIA.sql</sourceDDLFile>
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-13 17:52:01 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>869223FA-0C82-547C-14E0-33B5D566DDD0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LISTA_DE_PECAS" id="3F7F1977-3411-8FA0-44C1-AE206589D5EE">
+<sourceDDLFile>CRIA.sql</sourceDDLFile>
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-13 17:52:01 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>653EDEF2-B351-1EE4-0401-FEAE81B924CC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUSTOS_ESTIMADOS" id="766DC208-3C1F-FB81-DEB9-7C3383966592">
+<sourceDDLFile>CRIA.sql</sourceDDLFile>
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-13 17:52:01 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>F8757195-00F1-738D-BE7E-BB946D1DC013</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_USUARIO" id="702A82EF-2871-3947-7AF3-737F4467BF3D">
+<sourceDDLFile>CRIA.sql</sourceDDLFile>
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-13 17:52:01 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>A7C4EB54-CC25-2DB8-FBE3-F079C78E59AA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E22E389B-CDB2-D3E9-9CA7-9453F31128E8" referredColumn="BEDD845E-F42C-F1A6-5163-AAE53B0F06D8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9F2B7CA4-A871-E068-D3FC-C1D009A0FEB2" name="PK_ORCAMENTO">
+<sourceDDLFile>CRIA.sql</sourceDDLFile>
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-13 17:52:01 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA05DCCA-603A-C819-5F26-C8885F7BD4BE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F512944E-57A4-E081-64F7-9B8FAFF9FC9F" name="FK_ID_ORCAMENTO_USUARIO">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-13 17:52:02 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="702A82EF-2871-3947-7AF3-737F4467BF3D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

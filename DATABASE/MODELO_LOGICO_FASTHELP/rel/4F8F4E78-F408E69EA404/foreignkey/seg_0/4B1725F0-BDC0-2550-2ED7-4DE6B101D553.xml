@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4B1725F0-BDC0-2550-2ED7-4DE6B101D553" containerWithKeyObject="282C537B-AA92-6A8D-D2B8-C64A334E943A" localFKIndex="67C8F4B7-F231-C8AE-FBF6-66C052EC5EBD" name="Relation_25_T_FH_FORNECEDOR_FK">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:14:45 UTC</createdTime>
+<generatorID>9EAEBD3F-71DD-EBED-D7A3-134CFDFFE712</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<referredTableLongName>T_FH_FORNECEDOR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D36FEBF8-1C08-FE9B-EF53-E18FFC74EA02</referredTableID>
+<keyObject>E84A42EA-9BC0-5C19-2450-C5F05D7BF27D</keyObject>
+<referredKeyID>E84A42EA-9BC0-5C19-2450-C5F05D7BF27D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_FORNECEDOR</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

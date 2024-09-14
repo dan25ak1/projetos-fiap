@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="293100DA-6504-C697-9EBE-3A3A58E6B076" name="Relation_8">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:14:45 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="T_FH_OFICINA_ID_OFICINA" id="731D006B-82C2-72C4-7948-52586630AE5E">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:14:45 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="746529A0-0D5C-7C1C-6506-B161D3DC7299" referredColumn="F01E4564-7C41-FF32-D70B-3965E80216A3"/>
+</associations>
+</Column>
+<Column name="T_FH_PECA_ID_PECA" id="1B12E2C5-5BD3-A76F-2884-A090BBF8990B">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:14:45 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C8D44277-B69E-6DAB-B237-82F07CE94384" referredColumn="01CB52AD-DEAA-DB5C-9C66-637FC3F9B768"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="114C856A-D7F2-BC17-45DC-3A30A7E9F860" name="Relation_8_PK">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:14:45 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="731D006B-82C2-72C4-7948-52586630AE5E"/>
+<colUsage columnID="1B12E2C5-5BD3-A76F-2884-A090BBF8990B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7B1B31AB-C6B3-E288-026C-895E9C5C59BC" name="Relation_8_T_FH_OFICINA_FK">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:14:45 UTC</createdTime>
+<generatorID>0A7F8FCA-58D5-C170-F9C5-7AC51C40F669</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="731D006B-82C2-72C4-7948-52586630AE5E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="94AD2775-2079-219E-4538-8C02ACCC78A6" name="Relation_8_T_FH_PECA_FK">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:14:45 UTC</createdTime>
+<generatorID>0A7F8FCA-58D5-C170-F9C5-7AC51C40F669</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B12E2C5-5BD3-A76F-2884-A090BBF8990B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

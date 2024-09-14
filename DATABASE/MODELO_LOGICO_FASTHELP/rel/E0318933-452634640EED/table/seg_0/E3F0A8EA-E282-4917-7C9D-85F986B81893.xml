@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E3F0A8EA-E282-4917-7C9D-85F986B81893" name="T_FH_OFICINAv1">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:19 UTC</createdTime>
+<generatorID>6669D18E-0E37-B4DB-6025-B8120E284005</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_OFICINA" id="0BB8649F-B244-5E5E-5B9E-30CAE616EE32">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:19 UTC</createdTime>
+<generatorID>C6C94A11-6CD2-5791-6AFF-81A8DF8D040F</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOME" id="05DC19FD-BDAE-8C92-9EBA-247B92D3F29D">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:19 UTC</createdTime>
+<generatorID>A820175F-9084-6037-11F4-9CA47E886926</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 BYTE</dataTypeSize>
+<ownDataTypeParameters>300 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HORARIO_FUNCIONAMENTO" id="A589E060-9A79-CDAC-6D86-53F018C88A83">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:19 UTC</createdTime>
+<generatorID>EFBFD42B-60C9-48B7-5AE6-A6D6CA875A76</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_FH_ORCAMENTOv1_ID_ORCAMENTO" id="A919E8F3-CBF4-7B62-D2D2-619E3DB0268E">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:19 UTC</createdTime>
+<generatorID>F2A91FD0-C16C-5E89-0807-295ED1B6CAE1</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A4673A5A-D5FF-617F-92B0-8B65A389B385" referredColumn="2D0D6B20-23DB-73EA-9F69-1725E6A2F2AD"/>
+</associations>
+</Column>
+<Column name="T_FH_ENDERECOv1_ID_ENDERECO" id="712146E1-7C47-6218-4FA2-81B37D98EE0E">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:19 UTC</createdTime>
+<generatorID>74C87282-D6E4-0591-5886-5B76E78D0C9F</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B410E2A4-6149-581A-097A-4D47ABF298ED" referredColumn="42A4A341-6314-E10E-7BDC-77A4B5C36446"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="818D5801-53E8-E127-800E-2545BE77D61D" name="T_FH_OFICINAv1_PK">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:19 UTC</createdTime>
+<generatorID>EFF0424A-2A19-CB80-3155-6A5E657986CA</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0BB8649F-B244-5E5E-5B9E-30CAE616EE32"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="963E4F4F-34D3-A525-16A3-CA18E54D746F" name="T_FH_OFICINAv1__IDX">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:19 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>FA3673CD-53C8-1356-CE9E-8D9B304957A2</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="712146E1-7C47-6218-4FA2-81B37D98EE0E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5F44F89B-9147-4CCB-5EE9-DBE5771F06E4" name="T_FH_OFICINAv1_T_FH_ENDERECOv1_FK">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:19 UTC</createdTime>
+<generatorID>FA3673CD-53C8-1356-CE9E-8D9B304957A2</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="712146E1-7C47-6218-4FA2-81B37D98EE0E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5E24488E-800B-5AC0-9EFE-6FD1BCB2DAED" name="T_FH_OFICINAv1_T_FH_ORCAMENTOv1_FK">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:19 UTC</createdTime>
+<generatorID>96F14FE2-B209-611B-2085-045905B21D6D</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A919E8F3-CBF4-7B62-D2D2-619E3DB0268E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

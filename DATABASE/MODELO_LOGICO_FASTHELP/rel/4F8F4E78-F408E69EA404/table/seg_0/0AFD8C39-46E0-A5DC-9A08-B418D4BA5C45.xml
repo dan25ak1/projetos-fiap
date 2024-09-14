@@ -1,0 +1,199 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0AFD8C39-46E0-A5DC-9A08-B418D4BA5C45" name="T_FH_TELEFONE">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:42 UTC</createdTime>
+<generatorID>ADD0175C-9D7D-78BA-122E-1642FFA1D1C7</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_TELEFONE" id="186AFC50-4A61-5DDB-D3E9-B01E4724C659">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:42 UTC</createdTime>
+<generatorID>FEFFD329-25FB-7A0A-30A0-BB4C8AF95DB0</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DDD" id="09595F32-E132-C7FA-5E69-6924E3D6A794">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:42 UTC</createdTime>
+<generatorID>02A5BD8F-5979-1CE6-913D-5BC28C75064C</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUMERO" id="31BF276C-F1C1-BA57-0B2E-1EF68240C713">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:42 UTC</createdTime>
+<generatorID>5F07B74F-2818-2C07-B740-ECF75FE6EF76</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_FH_AGENDAMENTO_OFICINA_ID_AGENDAMENTO" id="4ECC4D4D-DF26-69B0-0AA9-19B1E93A4D28">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:42 UTC</createdTime>
+<generatorID>05AF8F08-99B7-F339-5E9E-CEC7FBA4CA73</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C205CFD4-EA33-F92C-7399-52F25E100FF5" referredColumn="B046040A-7665-D233-E147-D28B9FE76008"/>
+</associations>
+</Column>
+<Column name="T_FH_USUARIO_ID_USUARIO" id="BEEB674E-03BC-209E-1838-7187540BB3A4">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:42 UTC</createdTime>
+<generatorID>FFC2D137-3DDC-3363-80D5-CA6FCC4735E9</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F3AC4E71-F661-A4A6-EEF8-B780FA901672" referredColumn="9C9E51C7-538F-E1FE-3BC6-6CC24E986339"/>
+</associations>
+</Column>
+<Column name="T_FH_FORNECEDOR_ID_FORNECEDOR" id="47958DF3-E702-282C-6553-4E57DDE625A1">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:42 UTC</createdTime>
+<generatorID>8E854CE0-C6E0-6EFC-1AAB-1505331926EC</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B541CA71-70FD-E893-6EA1-8A859BE35852" referredColumn="7CC538CB-AF4A-3A2D-E7BC-65289942ACE7"/>
+</associations>
+</Column>
+<Column name="FUNCIONARIO_ID_FUNCIONARIO" id="3065A9AB-8BEB-514F-5C9B-1477A187ACD5">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:42 UTC</createdTime>
+<generatorID>7C54D71F-104A-EDA0-1459-E738CE18A19E</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2A164C9A-10AB-BBA3-0725-F5D04CDEF1B2" referredColumn="91ACF8D1-45F6-1E90-29CA-9052D47C911E"/>
+</associations>
+</Column>
+<Column name="T_FH_OFICINA_ID_OFICINA" id="0745BB28-DFFE-813A-8EF8-E617A40FEAB3">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:42 UTC</createdTime>
+<generatorID>E36F3594-B153-AFA7-7665-BBD30F04DE72</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1EF8874E-74FC-170A-9389-0CC951CB2E91" referredColumn="F01E4564-7C41-FF32-D70B-3965E80216A3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9B2321BB-40B8-61D1-4BAA-1CA2B51592B1" name="T_FH_TELEFONE_PK">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:42 UTC</createdTime>
+<generatorID>7282B63D-76B5-67BB-BD32-91717BB38D2D</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="186AFC50-4A61-5DDB-D3E9-B01E4724C659"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="269EC01B-5C44-105A-686F-22D2C527FCDB" name="T_FH_TELEFONE_T_FH_AGENDAMENTO_OFICINA_FK">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:42 UTC</createdTime>
+<generatorID>6D9BBB58-2BB4-F689-2E9D-4F120630B051</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4ECC4D4D-DF26-69B0-0AA9-19B1E93A4D28"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3D7A747E-6393-0225-AA30-E60284225AC9" name="T_FH_TELEFONE_T_FH_USUARIO_FK">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:42 UTC</createdTime>
+<generatorID>0AF6A541-1751-0815-2629-003D9E107626</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BEEB674E-03BC-209E-1838-7187540BB3A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8090C94C-50D9-A4C7-6BED-A2F97F1F15D6" name="T_FH_TELEFONE_T_FH_FORNECEDOR_FK">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:42 UTC</createdTime>
+<generatorID>B40EEF33-1B75-6777-B7E1-4200BA458883</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="47958DF3-E702-282C-6553-4E57DDE625A1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="878A46DB-C56F-5B1F-E79A-F79445513286" name="T_FH_TELEFONE_FUNCIONARIO_FK">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:42 UTC</createdTime>
+<generatorID>91426CF4-A10A-D1B0-E579-FDEBFB741F5F</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3065A9AB-8BEB-514F-5C9B-1477A187ACD5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="18A4F13D-210F-3414-4A8D-DA3CEAF3BC26" name="T_FH_TELEFONE_T_FH_OFICINA_FK">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:42 UTC</createdTime>
+<generatorID>8BFDBE21-FFF2-036A-7B6A-58CFB442FB0C</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0745BB28-DFFE-813A-8EF8-E617A40FEAB3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D7192EA5-CC9A-05C2-4B4D-B3DAC3281775" containerWithKeyObject="2E5B1072-CC70-0452-1815-4471A3377EE9" localFKIndex="1BB5E3D4-8CB4-2BFF-2142-759EBFA6F281" name="FK_ID_OFICINA_ENDE">
+<sourceDDLFile>CRIA.sql</sourceDDLFile>
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-13 17:52:02 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<referredTableLongName>T_FH_ENDERECO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1BE86272-3B4A-F8EE-1DD3-CF6BEB81CEBC</referredTableID>
+<keyObject>46B3F2BB-2A0B-DBAD-C155-B3B3633949A9</keyObject>
+<referredKeyID>46B3F2BB-2A0B-DBAD-C155-B3B3633949A9</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_ENDERECO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

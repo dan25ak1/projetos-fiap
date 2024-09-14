@@ -1,0 +1,155 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="064918CC-9433-5522-4B3B-5BD7CAA3E748" name="T_FH_ENDERECO">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:42 UTC</createdTime>
+<generatorID>CF7D71B4-A437-770A-DBF9-1AB033F46050</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ENDERECO" id="A36C523D-BCD3-6DBB-7130-BF2B6BEC29E1">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:42 UTC</createdTime>
+<generatorID>3110FEC4-F9CA-335C-39D0-3AF4F87059C5</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RUA" id="D33CEAAE-5AE5-8767-4040-374EB60022F3">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:42 UTC</createdTime>
+<generatorID>04358BFC-BDCD-5F51-48C7-42AAC23844F8</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 BYTE</dataTypeSize>
+<ownDataTypeParameters>300 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO" id="6B5FB113-2D68-B503-320E-ADC0AC382B71">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:42 UTC</createdTime>
+<generatorID>22755347-B136-53C9-2D23-94520F3BA57C</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 BYTE</dataTypeSize>
+<ownDataTypeParameters>300 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MUNICIPIO" id="43007AF1-E112-139F-B4FD-AB752D1BC317">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:42 UTC</createdTime>
+<generatorID>317A38A5-2C7A-AF45-0C01-E9CF5612A71B</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 BYTE</dataTypeSize>
+<ownDataTypeParameters>300 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUMERO" id="A683974F-7875-9E93-638A-A5C3939C62A0">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:42 UTC</createdTime>
+<generatorID>BC697959-D053-E534-1C31-B3AEFDE3A043</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 BYTE</dataTypeSize>
+<ownDataTypeParameters>300 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_FH_USUARIO_ID_USUARIO" id="715938E1-5330-022A-C51F-F7B7F9F563B3">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:42 UTC</createdTime>
+<generatorID>2807E578-B6D2-D121-DEBE-1821776C41B1</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_FH_FORNECEDOR_ID_FORNECEDOR" id="DBA9229B-F3AE-D85E-CF4D-00C5DE34D00A">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:42 UTC</createdTime>
+<generatorID>308516FD-24B3-BAC7-6BF3-13AC2D54B4EC</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_FH_OFICINA_ID_OFICINA" id="425D6E8C-1031-5942-0D5B-47728333442E">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:42 UTC</createdTime>
+<generatorID>ECE34297-BEE2-A7AE-1864-9E4C6A525AEB</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AEC3B257-94D8-12FD-AFEB-9464E14413B4" name="T_FH_ENDERECO_PK">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:42 UTC</createdTime>
+<generatorID>3154D580-4EA7-EDA5-0055-AD4A24780571</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A36C523D-BCD3-6DBB-7130-BF2B6BEC29E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="726EFCBC-DBAE-6440-3ECE-2F425DD8BE39" name="T_FH_ENDERECO__IDX">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:42 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>5E942EF5-B68A-AE68-98F3-BE864E858EE9</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="DBA9229B-F3AE-D85E-CF4D-00C5DE34D00A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="31386211-62B0-C2DB-8647-7C764E950963" name="T_FH_ENDERECO__IDXv1">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:42 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>FA3673CD-53C8-1356-CE9E-8D9B304957A2</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="425D6E8C-1031-5942-0D5B-47728333442E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3A7D6C04-40D9-46D6-4571-8B5950359EDC" name="T_FH_ENDERECO__IDXv2">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:42 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>C0F70CF7-A7CE-326C-305B-5DF52A53476E</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="715938E1-5330-022A-C51F-F7B7F9F563B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

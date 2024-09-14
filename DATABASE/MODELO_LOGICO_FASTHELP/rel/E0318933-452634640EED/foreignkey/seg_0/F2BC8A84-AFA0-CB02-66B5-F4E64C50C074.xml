@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F2BC8A84-AFA0-CB02-66B5-F4E64C50C074" containerWithKeyObject="0FC345D2-47AA-9316-07AB-547EFE7D0A57" localFKIndex="52C6EB68-281B-5CEF-AE2B-F8A551CAFE5E" name="T_FH_TELEFONEv1_T_FH_AGENDAMENTO_OFICINAv1_FK">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:19 UTC</createdTime>
+<generatorID>6D9BBB58-2BB4-F689-2E9D-4F120630B051</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<referredTableLongName>T_FH_AGENDAMENTO_OFICINAv1</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7974DE4D-1838-28BD-C1BC-823C625C6D96</referredTableID>
+<keyObject>253B355D-90AD-4393-B53B-D277B6B2929E</keyObject>
+<referredKeyID>253B355D-90AD-4393-B53B-D277B6B2929E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_AGENDAMENTO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

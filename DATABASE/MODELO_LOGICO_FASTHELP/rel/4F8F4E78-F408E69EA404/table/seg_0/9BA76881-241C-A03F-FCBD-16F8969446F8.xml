@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9BA76881-241C-A03F-FCBD-16F8969446F8" name="Relation_31">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:50:39 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="T_FH_USUARIO_ID_USUARIO" id="0767C283-7656-EC2D-221D-72AF6C2760E4">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:50:39 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B0200C2B-7031-1E58-1688-FBCE52A4CD35" referredColumn="9C9E51C7-538F-E1FE-3BC6-6CC24E986339"/>
+</associations>
+</Column>
+<Column name="T_FH_AGENDAMENTO_OFICINA_ID_AGENDAMENTO" id="FCFC92B5-6B8E-3024-A032-DC65B9493D62">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:50:39 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C9E02BEB-FFEF-2FA2-3CA7-1B658B317FF9" referredColumn="B046040A-7665-D233-E147-D28B9FE76008"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3BD99BAA-05A5-DFF3-3828-CDED057CE030" name="Relation_31_PK">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:50:39 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0767C283-7656-EC2D-221D-72AF6C2760E4"/>
+<colUsage columnID="FCFC92B5-6B8E-3024-A032-DC65B9493D62"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4B978988-8E39-D452-AC3F-E1E2A5FADCF6" name="Relation_31_T_FH_USUARIO_FK">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:50:39 UTC</createdTime>
+<generatorID>D6BC1081-EC17-5C6F-47FB-EC0650FE6615</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0767C283-7656-EC2D-221D-72AF6C2760E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="272380FC-8779-C51C-AF3E-110F58B7ED52" name="Relation_31_T_FH_AGENDAMENTO_OFICINA_FK">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:50:39 UTC</createdTime>
+<generatorID>D6BC1081-EC17-5C6F-47FB-EC0650FE6615</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FCFC92B5-6B8E-3024-A032-DC65B9493D62"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

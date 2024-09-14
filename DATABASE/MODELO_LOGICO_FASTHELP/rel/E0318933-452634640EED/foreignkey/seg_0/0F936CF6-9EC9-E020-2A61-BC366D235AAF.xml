@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0F936CF6-9EC9-E020-2A61-BC366D235AAF" containerWithKeyObject="A25AF43A-4B53-3866-63B0-06461055124F" localFKIndex="1F11AFE5-44F8-7C86-2301-606033C4AEC5" name="Relation_5_T_FH_AGENDAMENTO_OFICINAv1_FK">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:19 UTC</createdTime>
+<generatorID>EFA10DFC-E659-A965-5B88-66C276AAE1BC</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<referredTableLongName>T_FH_AGENDAMENTO_OFICINAv1</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7974DE4D-1838-28BD-C1BC-823C625C6D96</referredTableID>
+<keyObject>253B355D-90AD-4393-B53B-D277B6B2929E</keyObject>
+<referredKeyID>253B355D-90AD-4393-B53B-D277B6B2929E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_AGENDAMENTO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7974DE4D-1838-28BD-C1BC-823C625C6D96" name="T_FH_AGENDAMENTO_OFICINAv1">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:18 UTC</createdTime>
+<generatorID>2B8E8510-0F83-25E7-34DD-C3FB752F430D</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_AGENDAMENTO" id="2B53C414-735A-B010-E82B-B4FD3145A478">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:18 UTC</createdTime>
+<generatorID>5DA9609A-4795-910D-8158-50D776E500B3</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HORA_AGENDAMENTO" id="B2F35E60-4C2D-6F38-6E9E-A2DAE523EBDE">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:18 UTC</createdTime>
+<generatorID>6BED2993-A221-33AE-E923-A73F81AC8428</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATA_AGENDAMENTO" id="0CD3BC68-BC16-C2DD-B1FE-780C1E3AA0EF">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:18 UTC</createdTime>
+<generatorID>79014F8A-0037-1509-53F0-B69EA5196CFF</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_FH_OFICINAv1_ID_OFICINA" id="94BD8D78-C98B-47A3-2E4E-D139F503C80C">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:18 UTC</createdTime>
+<generatorID>B831FE4B-96F1-C87B-9AF7-4CC7232028BF</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="32F32A26-49C1-2754-90EC-D1D07B3E629B" referredColumn="0BB8649F-B244-5E5E-5B9E-30CAE616EE32"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="253B355D-90AD-4393-B53B-D277B6B2929E" name="T_FH_AGENDAMENTO_OFICINAv1_PK">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:18 UTC</createdTime>
+<generatorID>B4890C20-925E-726B-6941-29646989423B</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2B53C414-735A-B010-E82B-B4FD3145A478"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="568458EB-8A1F-D2EF-E4DE-DC0E77AC7CA1" name="T_FH_AGENDAMENTO_OFICINAv1_T_FH_OFICINAv1_FK">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:19 UTC</createdTime>
+<generatorID>D6598B04-9746-786A-B4BB-DAFB7FBE3AEA</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="94BD8D78-C98B-47A3-2E4E-D139F503C80C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

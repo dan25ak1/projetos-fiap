@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="072923D8-7B63-D426-399F-C2D02C8825D9" containerWithKeyObject="7D77559D-E6EC-1EE5-D4B4-84BE26BFD655" localFKIndex="E2702E29-D315-1845-CA31-D6DED19C2103" name="T_FH_FORNECEDORv1_T_FH_ESTOQUEv1_FK">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:19 UTC</createdTime>
+<generatorID>00302C55-930C-5B64-C00D-8C29E914AA68</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<referredTableLongName>T_FH_ESTOQUEv1</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8FE6420F-5702-7A69-37C5-3E7EC1563500</referredTableID>
+<keyObject>412574B4-9C05-721A-3F71-461288D68BAB</keyObject>
+<referredKeyID>412574B4-9C05-721A-3F71-461288D68BAB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_ESTOQUE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

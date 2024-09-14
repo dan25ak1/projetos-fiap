@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0339767E-F57E-238E-714B-AF405CDE13BE" containerWithKeyObject="1F9F0A7F-E021-BC89-C25B-A51A723728FC" localFKIndex="A1029EF8-B239-1E0E-4A53-15E8906E577E" name="FK_ID_FORNEC_ENDE">
+<sourceDDLFile>CRIA.sql</sourceDDLFile>
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-13 17:52:02 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<referredTableLongName>T_FH_ENDERECO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1BE86272-3B4A-F8EE-1DD3-CF6BEB81CEBC</referredTableID>
+<keyObject>46B3F2BB-2A0B-DBAD-C155-B3B3633949A9</keyObject>
+<referredKeyID>46B3F2BB-2A0B-DBAD-C155-B3B3633949A9</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_ENDERECO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

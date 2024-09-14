@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2D64BCA8-03B5-E2F9-3A18-F62E734440F9" name="Relation_25">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:19 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="T_FH_PECAv1_ID_PECA" id="812307A4-67B8-8E74-1A29-967FD27C339B">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:19 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C491FF2A-F3A8-4EEA-DD28-59CC2DB8A476" referredColumn="42C130E7-1EA4-C235-3215-5FE9529C4AC6"/>
+</associations>
+</Column>
+<Column name="T_FH_FORNECEDORv1_ID_FORNECEDOR" id="D05F58C8-86DF-6AE6-42D5-495467A15ED9">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:19 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="89DF5304-EA90-EE63-F591-D7A283C6B9C3" referredColumn="1B2C777E-8917-F073-FCBA-95E89A6EF133"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A76A1248-0AD9-D3B1-855E-D9C925315769" name="Relation_25_PK">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:19 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="812307A4-67B8-8E74-1A29-967FD27C339B"/>
+<colUsage columnID="D05F58C8-86DF-6AE6-42D5-495467A15ED9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A1207DD2-85EA-9510-B6AA-B8035551279E" name="Relation_25_T_FH_PECAv1_FK">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:19 UTC</createdTime>
+<generatorID>9EAEBD3F-71DD-EBED-D7A3-134CFDFFE712</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="812307A4-67B8-8E74-1A29-967FD27C339B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="436B3EAF-6F3B-0E44-FF4A-22C031364986" name="Relation_25_T_FH_FORNECEDORv1_FK">
+<createdBy>dcs25</createdBy>
+<createdTime>2024-09-14 10:00:19 UTC</createdTime>
+<generatorID>9EAEBD3F-71DD-EBED-D7A3-134CFDFFE712</generatorID>
+<ownerDesignName>MODELO_LOGICO_FASTHELP1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D05F58C8-86DF-6AE6-42D5-495467A15ED9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
