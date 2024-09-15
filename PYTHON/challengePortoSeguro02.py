@@ -50,7 +50,7 @@ def menu():
 
 def check_up(lista_problema):
     limpa_terminal()
-    print("Opção (1) - Fazer um check-up no veículo. \n\nSabe qual defeito o veiculo apresenta? ") 
+    print("Opção (1) - Fazer um check-up no veículo.\n") 
     print("(1) Já sabe qual é o defeito.")
     print("(2) Não sei qual defeito o meu veiculo apresenta.")
     escolha = int(input("Digite o número correspondente a opção desejada: "))
@@ -308,8 +308,6 @@ while op != 8:
             km = input(f"Km ({veiculos[pos+5]}): ")
             capacidade = input(f"Capacidade ({veiculos[pos+6]}): ")
             altera_veiculo(veiculos, pos, tipo, placa, modelo, montadora, ano, km, capacidade)
-        
-
     elif op == 7:
         placa = input("Placa: ")
         pos = consulta_veiculo(placa, veiculos)
@@ -318,7 +316,7 @@ while op != 8:
             print(f"Modelo : {veiculos[pos]}")
             print(f"Montadora : {veiculos[pos+1]}")
         else:
-            print(f"Não existe veículo com a placa {placa}")     
+            print(f"Não existe veículo com a placa {placa}")
     
     op = menu()
 
