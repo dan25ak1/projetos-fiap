@@ -2,18 +2,36 @@ package br.com.fiap.dao;
 
 import br.com.fiap.to.RemedioTO;
 
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.time.LocalDate;
 import java.util.ArrayList;
 
-public class RemedioDAO {
+public class RemedioDAO extends Repository{
     public ArrayList<RemedioTO> findAll() {
         ArrayList<RemedioTO> remedios = new ArrayList<>();
-        RemedioTO remedio = new RemedioTO(1L, "Loratadina", 7.93, LocalDate.parse("2023-10-10"), LocalDate.parse("2025-10-10"));
-        remedios.add(remedio);
-        remedio = new RemedioTO(2L, "Amoxicilina", 26.50, LocalDate.now(), LocalDate.now().plusYears(2));
-        remedios.add(remedio);
-        remedio = new RemedioTO(3L, "Metformina", 9.99, LocalDate.now(), LocalDate.now().plusYears(2));
-        remedios.add(remedio);
+        String sql = "select * from ddd_remedios order by codigo";
+        try (PreparedStatement ps = getConnection().prepareStatement(sql)) {
+            ResultSet rs = ps.executeQuery();
+            if (rs != null) {
+                while (rs.next()) {
+                    RemedioTO remedio = new RemedioTO();
+                    remedio.setCodigo(rs.getLong("codigo"));
+                    remedio.setNome(rs.getString("nome"));
+                    remedio.setPreco(rs.getDouble("preco"));
+                    remedio.setDataDeFabricacao(rs.getDate("data_de_fabricacao").toLocalDate());
+                    remedio.setDataDeValidade(rs.getDate("data_de_validade").toLocalDate());
+                    remedios.add(remedio);
+                }
+            } else {
+                return null;
+            }
+        } catch (SQLException e) {
+            System.out.println("Erro na consulta: " + e.getMessage());
+        } finally {
+            closeConnetcion();
+        }
         return remedios;
     }
 }
